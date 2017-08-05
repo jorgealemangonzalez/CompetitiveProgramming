@@ -22,7 +22,7 @@ using namespace std;
 
    #include <fstream>
 
-   istream * in;
+   istream * in.txt;
    ostream * out;
 #endif
 
@@ -50,9 +50,9 @@ vector<P> A[10001];     // listas adyacencia (coste,nodo)
 
 // int prec[201]; // predecesores (nodes from s to t)
 // another way to obtain a path (above all, if there is
-// more than one, consists in using BFS from the target
+// more than one, consists in.txt using BFS from the target
 // and add to the queue those nodes that lead to the
-// minimum cost in the preceeding node)
+// minimum cost in.txt the preceeding node)
 
 V dijkstra(int s, int t) {
     S m;                          // cola de prioridad
@@ -83,9 +83,9 @@ int main()
 {
     #ifdef _DEBUG
 
-     in  = new ifstream("entrada.txt");
+     in.txt  = new ifstream("entrada.txt");
      out = new ofstream("salida.txt");
-     cin.rdbuf(in->rdbuf());
+     cin.rdbuf(in.txt->rdbuf());
      cout.rdbuf(out->rdbuf());
     #endif
 

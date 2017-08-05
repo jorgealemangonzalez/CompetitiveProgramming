@@ -57,7 +57,7 @@ int main(){
 		if(acttime <= maxtime)
 			printf("%02d:%02d:%02d\n",acttime/(60*60), (acttime/60)%60 , acttime%60 );
 		else
-			cout<<"Signals fail to synchronise in 5 hours"<<endl;
+			cout<<"Signals fail to synchronise in.txt 5 hours"<<endl;
 		
 	}
 	return 0;
